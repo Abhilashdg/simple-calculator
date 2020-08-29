@@ -1,32 +1,49 @@
-.title{ 
-    margin-bottom: 10px; 
-    text-align:center; 
-    width: 210px; 
-    color:rgba(27, 215, 240, 0.712); 
-    border: solid black 2px; 
-    background:url(./images/b2.jpg);
-    } 
-
-.title h1{
-    font-family: fantasy;
-    font-style: italic;
-    color: rgba(23, 172, 218, 0.965);
+body {
+  background-color: rgb(15, 170, 144);
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-    input[type="button"] 
-    { 
-    background-color:rgb(43, 164, 245); 
-    color: black; 
-    border: solid rgb(238, 41, 41) 2px; 
-    width:100%;
-    height: 30px;
-    background:url(./images/b1.jpg);
-    } 
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 210px;
+  color: rgba(27, 215, 240, 0.712);
+  border: solid black 2px;
+  background: linear-gradient(rgb(89, 255, 144), rgb(19, 145, 177));
+}
 
-    input[type="text"] 
-    { 
-    background-color:rgb(63, 247, 237); 
-    border: solid rgb(15, 8, 78) 2px; 
-    width:100%;
-    height: 30px;
-    } 
+.title h1 {
+  font-family: fantasy;
+  font-style: italic;
+  color: rgba(43, 101, 226, 0.965);
+}
+
+input[type="button"] {
+  background: linear-gradient(rgb(62, 199, 153), rgb(181, 211, 9));
+  color: black;
+  border: solid rgb(238, 41, 41) 2px;
+  width: 100%;
+  height: 40px;
+}
+
+input[type="text"] {
+  background-color: rgb(63, 247, 237);
+  border: solid rgb(15, 8, 78) 2px;
+  width: 100%;
+  height: 30px;
+}
+
+input[type="text"]:hover {
+  background-color: rgb(41, 226, 140);
+  border: solid rgba(16, 78, 211, 0.965) 2px;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(35, 12, 245);
+  color: rgb(252, 102, 16);
+  border: solid rgb(7, 6, 94) 2px;
+}
+ 
